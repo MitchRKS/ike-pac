@@ -11,6 +11,17 @@ app.get("/", (req, res) => {
   res.send("New Landing Page");
 });
 
+app.get("/about", (req, res) => {
+  res.send("New About Page");
+});
+
+app.get("/contribute", (req, res) => {
+  res.send("New Contribution Page");
+});
+
+app.get("/join", (req, res) => {
+  res.send("New Signup Page");
+});
 // Listen on the port
 app.listen(PORT, () => {
   console.log(`listening on port:${PORT} http://localhost:${PORT}/`);
