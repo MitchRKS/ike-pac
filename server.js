@@ -1,27 +1,19 @@
 import dotenv from "dotenv";
 import express from "express";
-
+import personController from "./backend/controllers/personController.js";
 dotenv.config();
 
 const app = express();
+app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
-  res.send("New Landing Page");
+  res.send("Helo");
 });
 
-app.get("/about", (req, res) => {
-  res.send("New About Page");
-});
+app.use("/people", personController);
 
-app.get("/contribute", (req, res) => {
-  res.send("New Contribution Page");
-});
-
-app.get("/join", (req, res) => {
-  res.send("New Signup Page");
-});
 // Listen on the port
 app.listen(PORT, () => {
   console.log(`listening on port:${PORT} http://localhost:${PORT}/`);
