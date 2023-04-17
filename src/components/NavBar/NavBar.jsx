@@ -6,20 +6,20 @@ export default function NavBar() {
     <nav>
       <ul className={styles.NavBar}>
         <li>
-          <a href="/">Ike PAC</a>
+          <a href="/">Kansans First PAC</a>
         </li>
         <div className={styles.linksDiv}>
           <li>
-            <a href="/">Home</a>
+            <a href="/">About</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">Blog</a>
           </li>
           <li>
-            <a href="/services">Services</a>
+            <a href="/services">Contribute</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/contact">Signup</a>
           </li>
         </div>
       </ul>

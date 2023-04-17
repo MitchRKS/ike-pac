@@ -1,0 +1,36 @@
+$myFont: Helvetica, sans-serif;
+$primaryColor: #41729f;
+$secondaryColor: #5885af;
+$tertiaryColor: #274472;
+$fourthColor: #c3e0e5;
+
+.NavBar {
+  display: flex;
+  background-color: $secondaryColor;
+  height: 5vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: larger;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  color: $secondaryColor;
+
+  li {
+    padding: 14px;
+  }
+}
+
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+}

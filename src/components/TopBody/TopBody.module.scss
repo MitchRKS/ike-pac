@@ -1,0 +1,41 @@
+$myFont: Helvetica, sans-serif;
+$primaryColor: #41729f;
+$secondaryColor: #5885af;
+$tertiaryColor: #274472;
+$fourthColor: #c3e0e5;
+
+.TopBody {
+  background-color: $primaryColor;
+  margin: 0px;
+  height: 45vh;
+  width: 100vw;
+}
+
+.DisplayBoxDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+
+.DescriptionBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: $tertiaryColor;
+  margin: 20px;
+  height: 25vh;
+  width: 25vw;
+
+  p {
+    line-height: 1.5;
+    margin: 5px;
+  }
+
+  h1 {
+    line-height: 1.25;
+    margin: 5px;
+  }
+}

@@ -4,14 +4,14 @@ $secondaryColor: #5885af;
 $tertiaryColor: #274472;
 $fourthColor: #c3e0e5;
 
-.NavBar {
+.Footer {
   display: flex;
-  background-color: transparent;
+  background-color: $tertiaryColor;
   height: 5vh;
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 1;

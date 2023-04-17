@@ -1,0 +1,32 @@
+$myFont: Helvetica, sans-serif;
+$primaryColor: #41729f;
+$secondaryColor: #5885af;
+$tertiaryColor: #274472;
+$fourthColor: #c3e0e5;
+
+.MidSection {
+  border: 1px solid white;
+  background-color: $primaryColor;
+  margin: 0px;
+  height: 45vh;
+  width: 100vw;
+}
+
+.DescriptionBoxDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  opacity: 0.5;
+}
+
+.DescriptionBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: $tertiaryColor;
+  margin: 10px;
+  height: 25vh;
+  width: 25vw;
+}
